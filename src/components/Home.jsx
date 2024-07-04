@@ -9,8 +9,8 @@ function Home() {
 	};
 	return (
 		<div className="bg-[url('/bg-1.jpg')] bg-center bg-no-repeat bg-cover h-screen grid place-content-center ">
-			<div className="max-w-[80rem] h-[66rem] bg-slate-200 bg-opacity-90 custom-border-transparent relative">
-				<div className="p-[2.5rem]">
+			<div className="max-w-[80rem] max-h-[66rem] bg-slate-200 bg-opacity-90 custom-border-transparent relative">
+				<div className="p-[2.5rem] mb-[5rem]">
 					<h1 className="text-[3.4rem] text-center tracking-widest  text-[#0077b6] font-bold">
 						WELCOME TO SURVEY
 					</h1>
@@ -33,7 +33,7 @@ function Home() {
 						<p>You must fill all fields, to be able to continue</p>
 						<button
 							onClick={handleClick}
-							className="absolute py-[1rem] px-[3rem] bg-[#0077b6] text-white tracking-widest rounded-[0.4rem] right-[5rem] bottom-[4rem] hover:bg-[#023e8a]">
+							className="absolute py-[1rem] px-[3rem]  bg-[#0077b6] text-white tracking-widest rounded-[0.4rem] right-[5rem] bottom-[3rem] hover:bg-[#023e8a]">
 							NEXT
 						</button>
 					</div>
