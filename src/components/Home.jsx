@@ -9,7 +9,7 @@ function Home() {
 	};
 	return (
 		<div className="bg-[url('/bg-1.jpg')] bg-center bg-no-repeat bg-cover h-screen grid place-content-center ">
-			<div className="w-[80rem] h-[45rem] bg-slate-200 bg-opacity-90 custom-border-transparent relative">
+			<div className="max-w-[80rem] h-[66rem] bg-slate-200 bg-opacity-90 custom-border-transparent relative">
 				<div className="p-[2.5rem]">
 					<h1 className="text-[3.4rem] text-center tracking-widest  text-[#0077b6] font-bold">
 						WELCOME TO SURVEY

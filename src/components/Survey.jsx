@@ -23,7 +23,7 @@ function Survey() {
 
 	return (
 		<div className="bg-[url('/bg-1.jpg')] bg-center bg-no-repeat bg-cover h-screen grid place-content-center ">
-			<div className="w-[80rem] h-[55rem] bg-slate-200 bg-opacity-90 custom-border-transparent relative">
+			<div className="max-w-[80rem] h-[55rem] bg-slate-200 bg-opacity-90 custom-border-transparent relative">
 				<div className="p-[2.5rem]">
 					<h1 className="text-[3.4rem] text-center tracking-widest  text-[#0077b6] font-bold">
 						QUESTION ONE
@@ -40,7 +40,7 @@ function Survey() {
 								<Dropdown label="select an activity" items={dropdown1Items} />
 								<Dropdown label="select a name" items={dropdown3Items} />
 							</div>
-							<div>
+							<div className="flex flex-col">
 								<p className="font-semibold mb-[2rem]">Choose Frequency</p>
 								<Dropdown label="select frequency" items={dropdown2Items} />
 								<Dropdown label="select frequency" items={dropdown2Items} />
