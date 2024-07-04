@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 62.5%
+}
+
+.custom-border-transparent {
+  @apply border;
+  /* Apply border styles */
+  border-color: rgba(0, 0, 0, 0.219);
+  border-width: 1rem;
+}
